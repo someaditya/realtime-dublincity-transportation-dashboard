@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Team 10 - City Management</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no"> 
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="http://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link href="https://google-developers.appspot.com/maps/documentation/javascript/examples/default.css" rel="stylesheet">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBlXUbuSThmpDvlgrnAK32qqgQRroBsIw&callback=initialize"></script>
+  
+  <link rel = "stylesheet"
+   type = "text/css"
+   href = "MainCSS.css" />
+</head>
+ <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container" >
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand"  style="margin-left:-125px">City Sustainability Management - Bikes</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <h2 href="#">Statistics</h2>
+          <div style="margin: auto;">
+            <table id="bikeStationTable"></table>
+          </div>
+          <div id="chart_div" style="height: 300px; width: 100%;"></div>
+        </div>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a onclick="location.href='DublinBus.html'">DUBLIN BUS</a></li>
+        <li><a onclick="location.href='DublinBikes.html'">DUBLIN BIKES</a></li>
+        <li><a onclick="location.href='Login.html'">LOGOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <br>
+      <h2>About Sustainability </h2><br>
+      <h4>A one stop dashboard with an eagle eye on the city to overview and maintain the traffic and city sustainability growth.</h4><br>
+      <p>Balancing city growth and sustanability is always a tedious task for the city management. Sustainable city growth is always critical for all round developement of the city. This dashboard helps city management and service providers to track and maintain the city growth. Dashboard comes with the Stops congestion and heat map with useful analytics to tackle the city traffic. </p>
+      <!-- <br><button class="btn btn-default btn-lg">Get in Touch</button> -->
+    </div>
+    <div class="col-sm-4">
+      <br>
+      <span class="glyphicon glyphicon-map-marker logo"></span>
+    </div>
+  </div>
+</div>
+
+<div id="Navigatioion" class="container-fluid text-center bg-grey" >
+
+   <button onclick="location.href='DublinBus.html'" type="button" style="background-color: #f4511e;color:white">
+     CLICK TO VIEW DUBLIN BUS DASHBOARD</button>
+     <button onclick="location.href='DublinBikes.html'" type="button" style="background-color: #f4511e;color:white">
+     CLICK TO VIEW DUBLIN BIKES DASHBOARD</button>
+
+</div>
+
+<!-- Container (About Section) -->
+<!-- Container (Contact Section) -->
+<!-- <div id="contact" class="container-fluid text-center bg-grey">
+  <h2 class="text-center">TEAM 10</h2>
+
+</div> -->
+<footer class="container-fluid text-center" style="position:fixed;bottom:0;left:0;margin-left: 35%">
+<!--   <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a> -->
+  <p>City Management Project - Team 10, TCD, Dublin, 2018 </p>
+</footer>
+
+</html>
