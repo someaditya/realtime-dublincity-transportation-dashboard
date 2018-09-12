@@ -6,6 +6,12 @@ With increasing Population , there is a need for a better cross city Transportat
 The National Transport Authority (Irish: Údarás Náisiúnta Iompair) or NTA is the transport authority for Greater Dublin and the public transport licensing agency for Ireland. It was established under the provisions of the Dublin Transport Authority Act (2008) and the Public Transport Regulation Act (2009), on 1 December 2009.
 The NTA operates under the consumer facing brand Transport for Ireland.
 
+## Technology Stack
+* Javascript
+* JQuery
+* HTML/CSS
+* Leaflet
+
 ## Architechture 
 ![alt text](architecture.png)
 
@@ -21,6 +27,7 @@ The NTA operates under the consumer facing brand Transport for Ireland.
 3. https://github.com/bhargavpanth/Dublin-Transportation-DublinBikes-Consumer
 4. https://github.com/bhargavpanth/Dublin-Transportation-Server
 
+## Documentation
 
 ## Team Members
 * Some Aditya Mandal
