@@ -7,13 +7,13 @@ The National Transport Authority (Irish: Údarás Náisiúnta Iompair) or NTA is
 The NTA operates under the consumer facing brand Transport for Ireland.
 
 ## Architechture 
-![alt text][architecture.png]
+![alt text](architecture.png)
 
 ## Use-Case Diagram
-![alt text][use_case.png]
+![alt text](use_case.png)
 
 ## Sequence Diagram
-![alt text][sequence_diagram.png]
+![alt text](sequence_diagram.png)
 
 ## Server Side Repos of the Project:
 1. https://github.com/bhargavpanth/Dublin-Transportation-Pipeline
