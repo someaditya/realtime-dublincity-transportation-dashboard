@@ -29,10 +29,10 @@ The NTA operates under the consumer facing brand Transport for Ireland.
 
 ## Documentation
 
-![Class Diagrams](https://www.scribd.com/document/388413242/Real-Time-Dublin-City-Transportation-Dashboard-Class-Diagrams)
-![Functional Architecture Description](https://www.scribd.com/document/388413254/Real-Time-Dublin-City-Transportation-Dashboard-Functional-Architecture-Description)
-![Project Deployment Procedure](https://www.scribd.com/document/388413238/Real-Time-Dublin-City-Transportation-Dashboard-Project-Deployment-Procedure)
-![Techincal Architecure](https://www.scribd.com/document/388413248/Real-Time-Dublin-City-Transportation-Dashboard-Technical-Arch-Documentation)
+[Class Diagrams](https://www.scribd.com/document/388413242/Real-Time-Dublin-City-Transportation-Dashboard-Class-Diagrams)
+[Functional Architecture Description](https://www.scribd.com/document/388413254/Real-Time-Dublin-City-Transportation-Dashboard-Functional-Architecture-Description)
+[Project Deployment Procedure](https://www.scribd.com/document/388413238/Real-Time-Dublin-City-Transportation-Dashboard-Project-Deployment-Procedure)
+[Techincal Architecure](https://www.scribd.com/document/388413248/Real-Time-Dublin-City-Transportation-Dashboard-Technical-Arch-Documentation)
 
 ## Team Members
 * Some Aditya Mandal
