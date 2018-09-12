@@ -7,25 +7,25 @@ The National Transport Authority (Irish: Údarás Náisiúnta Iompair) or NTA is
 The NTA operates under the consumer facing brand Transport for Ireland.
 
 ## Architechture 
-![alt text][architechture.png]
+![alt text][architecture.png]
 
 ## Use-Case Diagram
-![alt text][use-case.png]
+![alt text][usecase.png]
 
 ## Sequence Diagram
-![alt text][sequence-diagram.png]
+![alt text][sequencediagram.png]
 
 ## Server Side Repos of the Project:
-1.https://github.com/bhargavpanth/Dublin-Transportation-Pipeline
-2.https://github.com/bhargavpanth/Dublin-Transportation-Consumer
-3.https://github.com/bhargavpanth/Dublin-Transportation-DublinBikes-Consumer
-4.https://github.com/bhargavpanth/Dublin-Transportation-Server
+1. https://github.com/bhargavpanth/Dublin-Transportation-Pipeline
+2. https://github.com/bhargavpanth/Dublin-Transportation-Consumer
+3. https://github.com/bhargavpanth/Dublin-Transportation-DublinBikes-Consumer
+4. https://github.com/bhargavpanth/Dublin-Transportation-Server
 
 
 ## Team Members
-Some Aditya Mandal
-Bhargav Panth
-Harshith Patel
-Sahil Manchanda
-Onurcan Onder
+* Some Aditya Mandal
+* Bhargav Panth
+* Harshith Patel
+* Sahil Manchanda
+* Onurcan Onder
 
