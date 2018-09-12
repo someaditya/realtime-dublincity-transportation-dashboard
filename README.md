@@ -16,12 +16,13 @@ The NTA operates under the consumer facing brand Transport for Ireland.
 ![alt text][sequence-diagram.png]
 
 ## Server Side Repos of the Project:
-https://github.com/bhargavpanth/Dublin-Transportation-Pipeline
-https://github.com/bhargavpanth/Dublin-Transportation-Consumer
-https://github.com/bhargavpanth/Dublin-Transportation-DublinBikes-Consumer
-https://github.com/bhargavpanth/Dublin-Transportation-Server
+1.https://github.com/bhargavpanth/Dublin-Transportation-Pipeline
+2.https://github.com/bhargavpanth/Dublin-Transportation-Consumer
+3.https://github.com/bhargavpanth/Dublin-Transportation-DublinBikes-Consumer
+4.https://github.com/bhargavpanth/Dublin-Transportation-Server
 
 
+## Team Members
 Some Aditya Mandal
 Bhargav Panth
 Harshith Patel
