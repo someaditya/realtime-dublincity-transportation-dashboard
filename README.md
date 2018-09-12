@@ -10,10 +10,10 @@ The NTA operates under the consumer facing brand Transport for Ireland.
 ![alt text][architecture.png]
 
 ## Use-Case Diagram
-![alt text][usecase.png]
+![alt text][use_case.png]
 
 ## Sequence Diagram
-![alt text][sequencediagram.png]
+![alt text][sequence_diagram.png]
 
 ## Server Side Repos of the Project:
 1. https://github.com/bhargavpanth/Dublin-Transportation-Pipeline
