@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Team 10 - City Management</title>
+    <title>Realtime DublinBikes Dashboard</title>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no"> 
   <meta charset="utf-8">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
@@ -35,7 +35,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#contact">Team10</a>
+      <a class="navbar-brand" href="#contact">RealTime DublinBikes Dashboard</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -49,13 +49,27 @@
         </div>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#routes">STATIONS</a></li>
-        <li><a href="#congestion">HEATMAP</a></li>
         <li><a href="#recommendations">DATA</a></li>
         <li><a href="#timetable">TIMETABLE</a></li>
+         <li><a onclick="location.href='DublinBus.html'">DUBLIN BUS</a></li>
       </ul>
     </div>
   </div>
 </nav>
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <br>
+      
+    
+      <!-- <br><button class="btn btn-default btn-lg">Get in Touch</button> -->
+    </div>
+    
+  </div>
+</div>
+DublinBikes is a public bicycle rental scheme which has operated in the city of Dublin since 2009. At its launch, the scheme, which is sponsored by JCDecaux, used 450 French-made unisex bicycles with 40 stations.By 2011 this had expanded to 550 bicycles and 44 stations, and in 2013 it was announced that a major expansion of the scheme would add a further 950 bikes and another 58 hire points.Dublin was the 17th city to implement such a scheme, and it was considered one of the most successful bike sharing schemes in the world,however in recent times progress has stalled with only 2 of 14 phases being rolled out. Currently the scheme loses €376,000 a year, leading to further expansion of Dublin Bikes being put on hold.
+When launched in 2009 there was a total of 40 bike stations and 450 bikes.There was a small expansion completed in 2011, adding 4 new stations and an extra 100 bikes.In April 2013 expansion plans were announced to expand the network to 102 stations and increasing the number of bikes from 550 to 1500.In March 2018, it was confirmed that the service would expand from 101 stations to 116 and from 1,500 bikes to 1,600.<br>
+<a href="http://www.dublinbikes.ie/">Official Website of DublinBikes</a>
 
 <div id="routes" class="container-fluid text-center bg-grey" >
    <br><h2>DUBLINBIKES STATIONS</h2><br>
@@ -87,13 +101,13 @@
 
 
 
-<div id="congestion" class="container-fluid text-center bg-grey" style="width:1400px;">
+<div id="congestion" class="container-fluid text-center bg-grey" >
     <br><h2>AVAILABILITY HEATMAP</h2><br>
 </div>   
-<div id="heatmap-canvas" style="width:1400px; height:720px; margin-left: 20px" ></div>
+<div id="heatmap-canvas" style="width:1200px; height:720px; margin-left: 20px" ></div>
 
 <!-- Container (Pricing Section) -->
-<div id="recommendations" class="container-fluid text-center bg-grey" style="width:1400px;">
+<div id="recommendations" class="container-fluid text-center bg-grey" >
   <h2>HOURLY DATA</h2><br>
   <div class="Menu">
   <div id="myDropdown" class="dropdown-content">
@@ -116,22 +130,18 @@
 <div id="chart_div"></div>
 
 <!-- Container (Pricing Section) -->
-<div id="timetable" class="container-fluid text-center bg-grey" style="width:1400px; ">
+<div id="tweets" class="container-fluid text-center bg-grey">
   <h2>LIVE TWEETS</h2><br>
   <a class="twitter-timeline" data-width="300" data-height="600" href="https://twitter.com/dublinbusnews?ref_src=twsrc%5Etfw">Tweets by Dublin Bus</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <a class="twitter-timeline" data-width="300" data-height="600" href="https://twitter.com/LiveDrive?ref_src=twsrc%5Etfw">Tweets by Live Drive </a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <a class="twitter-timeline" data-width="300" data-height="600" href="https://twitter.com/Luas?ref_src=twsrc%5Etfw">Tweets by LUAS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <a class="twitter-timeline"  data-width="900" data-height="600" href="https://twitter.com/search?q=%23Traffic%20%23Dublin" data-widget-id="979010721915777024">Tweets about #Traffic and #Dublin</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          
-         
-</div>
 
+     </div>     
+         
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid text-center bg-grey" style="width:1400px">
-  <h2 class="text-center">TEAM 10</h2>
-  
-</div>
+<a href="DublinBikes.html">
+<img src="img/Dublinbikes.png" alt="an image"  width="1200pt" height="300pt" />
+</a>
 
 
 <footer class="container-fluid text-center">

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Real-Time Dublin City Dashboard</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no"> 
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="http://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link href="https://google-developers.appspot.com/maps/documentation/javascript/examples/default.css" rel="stylesheet">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBlXUbuSThmpDvlgrnAK32qqgQRroBsIw&callback=initialize"></script>
+  
+  <link rel = "stylesheet"
+   type = "text/css"
+   href = "MainCSS.css" />
+</head>
+ <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container" >
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand"  >Real Time Dublin City Dashboard</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+          <div style="margin: auto;">
+            
+          </div>
+          <div id="chart_div" style="height: 300px; width: 100%;"></div>
+        </div>
+      
+        <li><a onclick="location.href='DublinBus.html'">DUBLIN BUS</a></li>
+        <li><a onclick="location.href='DublinBikes.html'">DUBLIN BIKES</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <br>
+      <h2>Dublin City Transportation </h2><br>
+      <h4>A one stop dashboard with an eagle eye view of the Dublin City Transporation Systems.</h4><br>
+      <p>Dublin, capital of the Republic of Ireland, is on Ireland’s east coast at the mouth of the River Liffey. With a history dating back to the 9th century, Dublin today has a population estimated at 565,000 in 2014, with a metropolitan population of 1.8 million.By 2020, the Central Statistics Office predicts the Dublin Region will reach a population of 2.1 million by 2020, with Dublin City will have a population of 610,000. By 2031, the Dublin population could surpass 5 million, with most people living in the greater Dublin area of Dublin, Kildare, Meath and Wicklow rather than the other regions.
+      With increasing Population , there is a need for a better cross city Transportation to facilitate the people moving around. This project aims at solving the current transportation problems and providing a better solution for future.
+
+      The National Transport Authority (Irish: Údarás Náisiúnta Iompair) or NTA is the transport authority for Greater Dublin and the public transport licensing agency for Ireland. It was established under the provisions of the Dublin Transport Authority Act (2008) and the Public Transport Regulation Act (2009), on 1 December 2009. The NTA operates under the consumer facing brand Transport for Ireland. </p>
+
+      Currently supports DublinBus and DublinBikes only.<strong>Click</strong> the logos or navigation bar to view the respective dashboards.
+      <!-- <br><button class="btn btn-default btn-lg">Get in Touch</button> -->
+    </div>
+    <div class="col-sm-4">
+      <br>
+     
+      <img src="img/trinity.jpg" alt="an image" style="border: #000000 2px solid;" width="400pt" height="220pt" />
+       <img src="img/dublincity.jpg" alt="an image" style="border: #000000 2px solid;" width="400pt" height="220pt" />
+    </div>
+  </div>
+</div>
+
+<div id="Navigatioion" class="container-fluid text-center bg-grey" >
+
+<a href="DublinBus.html">
+<img src="img/DublinBus.jpg" alt="an image" style="border: #000000 2px solid;" width="400pt" height="200pt" />
+</a>
+
+<a href="DublinBikes.html">
+<img src="img/Dublinbikes.png" alt="an image" style="border: #000000 2px solid;" width="400pt" height="200pt" />
+</a>
+
+</div>
+<a class="weatherwidget-io" href="https://forecast7.com/en/53d35n6d26/dublin/" data-label_1="DUBLIN" data-label_2="WEATHER" data-theme="original" >DUBLIN WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+<!-- Container (About Section) -->
+<!-- Container (Contact Section) -->
+<!-- <div id="contact" class="container-fluid text-center bg-grey">
+  <h2 class="text-center">TEAM 10</h2>
+
+</div> -->
+
+
+</html>
