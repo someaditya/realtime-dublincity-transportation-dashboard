@@ -146,7 +146,7 @@ function showJson()
 {
 
   request = new XMLHttpRequest();
-  request.open('GET', 'http://ec2-34-243-117-230.eu-west-1.compute.amazonaws.com:8080/poll/bikes/data', true);
+  request.open('GET', 'https://api.jcdecaux.com/vls/v1/stations?contract=dublin&apiKey=2b0b28f9e8359ef196ac5cb0ce5b1b64593469c0', true);
   var array = [];
   var redarray ;
   var redder = [[]];
